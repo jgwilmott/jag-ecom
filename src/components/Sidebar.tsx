@@ -68,7 +68,7 @@ const Sidebar = () => {
 				</div>
 
 				<section>
-					{categories.map((category, index) => (
+					{categories.map((category) => (
 						<label className="block mb-2">
 							<input
 								type="radio"
